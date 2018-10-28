@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233B79902186585100B461C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B798F2186585100B461C8 /* AppDelegate.swift */; };
+		233B79922186585100B461C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B79912186585100B461C8 /* ViewController.swift */; };
+		233B79952186585100B461C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233B79932186585100B461C8 /* Main.storyboard */; };
+		233B79972186585300B461C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233B79962186585300B461C8 /* Assets.xcassets */; };
+		233B799A2186585300B461C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233B79982186585300B461C8 /* LaunchScreen.storyboard */; };
+		233B79A52186585300B461C8 /* Dragging_ShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B79A42186585300B461C8 /* Dragging_ShapesTests.swift */; };
+		233B79B02186585300B461C8 /* Dragging_ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B79AF2186585300B461C8 /* Dragging_ShapesUITests.swift */; };
+		233B79BE218658C700B461C8 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B79BD218658C700B461C8 /* MyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233B79A12186585300B461C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233B79842186585100B461C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233B798B2186585100B461C8;
+			remoteInfo = "Dragging Shapes";
+		};
+		233B79AC2186585300B461C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233B79842186585100B461C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233B798B2186585100B461C8;
+			remoteInfo = "Dragging Shapes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		233B798C2186585100B461C8 /* Dragging Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dragging Shapes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233B798F2186585100B461C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		233B79912186585100B461C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		233B79942186585100B461C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233B79962186585300B461C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233B79992186585300B461C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233B799B2186585300B461C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233B79A02186585300B461C8 /* Dragging ShapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragging ShapesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233B79A42186585300B461C8 /* Dragging_ShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragging_ShapesTests.swift; sourceTree = "<group>"; };
+		233B79A62186585300B461C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233B79AB2186585300B461C8 /* Dragging ShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragging ShapesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233B79AF2186585300B461C8 /* Dragging_ShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragging_ShapesUITests.swift; sourceTree = "<group>"; };
+		233B79B12186585300B461C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233B79BD218658C700B461C8 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233B79892186585100B461C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B799D2186585300B461C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B79A82186585300B461C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233B79832186585100B461C8 = {
+			isa = PBXGroup;
+			children = (
+				233B798E2186585100B461C8 /* Dragging Shapes */,
+				233B79A32186585300B461C8 /* Dragging ShapesTests */,
+				233B79AE2186585300B461C8 /* Dragging ShapesUITests */,
+				233B798D2186585100B461C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		233B798D2186585100B461C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233B798C2186585100B461C8 /* Dragging Shapes.app */,
+				233B79A02186585300B461C8 /* Dragging ShapesTests.xctest */,
+				233B79AB2186585300B461C8 /* Dragging ShapesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233B798E2186585100B461C8 /* Dragging Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				233B79BD218658C700B461C8 /* MyView.swift */,
+				233B798F2186585100B461C8 /* AppDelegate.swift */,
+				233B79912186585100B461C8 /* ViewController.swift */,
+				233B79932186585100B461C8 /* Main.storyboard */,
+				233B79962186585300B461C8 /* Assets.xcassets */,
+				233B79982186585300B461C8 /* LaunchScreen.storyboard */,
+				233B799B2186585300B461C8 /* Info.plist */,
+			);
+			path = "Dragging Shapes";
+			sourceTree = "<group>";
+		};
+		233B79A32186585300B461C8 /* Dragging ShapesTests */ = {
+			isa = PBXGroup;
+			children = (
+				233B79A42186585300B461C8 /* Dragging_ShapesTests.swift */,
+				233B79A62186585300B461C8 /* Info.plist */,
+			);
+			path = "Dragging ShapesTests";
+			sourceTree = "<group>";
+		};
+		233B79AE2186585300B461C8 /* Dragging ShapesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233B79AF2186585300B461C8 /* Dragging_ShapesUITests.swift */,
+				233B79B12186585300B461C8 /* Info.plist */,
+			);
+			path = "Dragging ShapesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233B798B2186585100B461C8 /* Dragging Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233B79B42186585300B461C8 /* Build configuration list for PBXNativeTarget "Dragging Shapes" */;
+			buildPhases = (
+				233B79882186585100B461C8 /* Sources */,
+				233B79892186585100B461C8 /* Frameworks */,
+				233B798A2186585100B461C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dragging Shapes";
+			productName = "Dragging Shapes";
+			productReference = 233B798C2186585100B461C8 /* Dragging Shapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233B799F2186585300B461C8 /* Dragging ShapesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233B79B72186585300B461C8 /* Build configuration list for PBXNativeTarget "Dragging ShapesTests" */;
+			buildPhases = (
+				233B799C2186585300B461C8 /* Sources */,
+				233B799D2186585300B461C8 /* Frameworks */,
+				233B799E2186585300B461C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233B79A22186585300B461C8 /* PBXTargetDependency */,
+			);
+			name = "Dragging ShapesTests";
+			productName = "Dragging ShapesTests";
+			productReference = 233B79A02186585300B461C8 /* Dragging ShapesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		233B79AA2186585300B461C8 /* Dragging ShapesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233B79BA2186585300B461C8 /* Build configuration list for PBXNativeTarget "Dragging ShapesUITests" */;
+			buildPhases = (
+				233B79A72186585300B461C8 /* Sources */,
+				233B79A82186585300B461C8 /* Frameworks */,
+				233B79A92186585300B461C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233B79AD2186585300B461C8 /* PBXTargetDependency */,
+			);
+			name = "Dragging ShapesUITests";
+			productName = "Dragging ShapesUITests";
+			productReference = 233B79AB2186585300B461C8 /* Dragging ShapesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233B79842186585100B461C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Anthony Hauger";
+				TargetAttributes = {
+					233B798B2186585100B461C8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					233B799F2186585300B461C8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 233B798B2186585100B461C8;
+					};
+					233B79AA2186585300B461C8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 233B798B2186585100B461C8;
+					};
+				};
+			};
+			buildConfigurationList = 233B79872186585100B461C8 /* Build configuration list for PBXProject "Dragging Shapes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 233B79832186585100B461C8;
+			productRefGroup = 233B798D2186585100B461C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233B798B2186585100B461C8 /* Dragging Shapes */,
+				233B799F2186585300B461C8 /* Dragging ShapesTests */,
+				233B79AA2186585300B461C8 /* Dragging ShapesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233B798A2186585100B461C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233B799A2186585300B461C8 /* LaunchScreen.storyboard in Resources */,
+				233B79972186585300B461C8 /* Assets.xcassets in Resources */,
+				233B79952186585100B461C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B799E2186585300B461C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B79A92186585300B461C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233B79882186585100B461C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233B79BE218658C700B461C8 /* MyView.swift in Sources */,
+				233B79922186585100B461C8 /* ViewController.swift in Sources */,
+				233B79902186585100B461C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B799C2186585300B461C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233B79A52186585300B461C8 /* Dragging_ShapesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B79A72186585300B461C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233B79B02186585300B461C8 /* Dragging_ShapesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233B79A22186585300B461C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233B798B2186585100B461C8 /* Dragging Shapes */;
+			targetProxy = 233B79A12186585300B461C8 /* PBXContainerItemProxy */;
+		};
+		233B79AD2186585300B461C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233B798B2186585100B461C8 /* Dragging Shapes */;
+			targetProxy = 233B79AC2186585300B461C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		233B79932186585100B461C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233B79942186585100B461C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233B79982186585300B461C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233B79992186585300B461C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233B79B22186585300B461C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233B79B32186585300B461C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233B79B52186585300B461C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K47V9C55M7;
+				INFOPLIST_FILE = "Dragging Shapes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Hauger.Dragging-Shapes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233B79B62186585300B461C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K47V9C55M7;
+				INFOPLIST_FILE = "Dragging Shapes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Hauger.Dragging-Shapes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		233B79B82186585300B461C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K47V9C55M7;
+				INFOPLIST_FILE = "Dragging ShapesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Hauger.Dragging-ShapesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dragging Shapes.app/Dragging Shapes";
+			};
+			name = Debug;
+		};
+		233B79B92186585300B461C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K47V9C55M7;
+				INFOPLIST_FILE = "Dragging ShapesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Hauger.Dragging-ShapesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dragging Shapes.app/Dragging Shapes";
+			};
+			name = Release;
+		};
+		233B79BB2186585300B461C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K47V9C55M7;
+				INFOPLIST_FILE = "Dragging ShapesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Hauger.Dragging-ShapesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dragging Shapes";
+			};
+			name = Debug;
+		};
+		233B79BC2186585300B461C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K47V9C55M7;
+				INFOPLIST_FILE = "Dragging ShapesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Hauger.Dragging-ShapesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dragging Shapes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233B79872186585100B461C8 /* Build configuration list for PBXProject "Dragging Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B79B22186585300B461C8 /* Debug */,
+				233B79B32186585300B461C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233B79B42186585300B461C8 /* Build configuration list for PBXNativeTarget "Dragging Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B79B52186585300B461C8 /* Debug */,
+				233B79B62186585300B461C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233B79B72186585300B461C8 /* Build configuration list for PBXNativeTarget "Dragging ShapesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B79B82186585300B461C8 /* Debug */,
+				233B79B92186585300B461C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233B79BA2186585300B461C8 /* Build configuration list for PBXNativeTarget "Dragging ShapesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B79BB2186585300B461C8 /* Debug */,
+				233B79BC2186585300B461C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233B79842186585100B461C8 /* Project object */;
+}
