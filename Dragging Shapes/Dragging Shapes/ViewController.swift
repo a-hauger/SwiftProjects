@@ -12,11 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view/square, typically from a nib.
         
         let halfSizeOfView = 25.0
         let maxViews = 25
         
+        //insetBy returns a rectangle larger/smaller than the source rectangle
         let insetSize = self.view.bounds.insetBy(dx: CGFloat(Int(2 * halfSizeOfView)), dy: CGFloat(Int(2 * halfSizeOfView))).size
         
         //Add the views/squares
