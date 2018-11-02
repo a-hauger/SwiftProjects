@@ -29,6 +29,10 @@
 		23B36F1221890E6B0093CB99 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B36F0621890E6B0093CB99 /* whitebg.png */; };
 		23B36F1321890E6B0093CB99 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 23B36F0721890E6B0093CB99 /* Sprites.atlas */; };
 		23B36F15218AB77D0093CB99 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F14218AB77D0093CB99 /* Array2D.swift */; };
+		23B36F17218B8C0A0093CB99 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F16218B8C0A0093CB99 /* Block.swift */; };
+		23B36F19218BD9B10093CB99 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F18218BD9B10093CB99 /* Shape.swift */; };
+		23B36F1B218BE8C10093CB99 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F1A218BE8C10093CB99 /* SquareShape.swift */; };
+		23B36F1D218BEC150093CB99 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F1C218BEC150093CB99 /* TShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,10 @@
 		23B36F0621890E6B0093CB99 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		23B36F0721890E6B0093CB99 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		23B36F14218AB77D0093CB99 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		23B36F16218B8C0A0093CB99 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		23B36F18218BD9B10093CB99 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		23B36F1A218BE8C10093CB99 /* SquareShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		23B36F1C218BEC150093CB99 /* TShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,7 @@
 				23B36EA921890AF10093CB99 /* Actions.sks */,
 				23B36EAB21890AF10093CB99 /* GameScene.swift */,
 				23B36EAD21890AF10093CB99 /* GameViewController.swift */,
+				23B36F16218B8C0A0093CB99 /* Block.swift */,
 				23B36EAF21890AF10093CB99 /* Main.storyboard */,
 				23B36F0021890E6B0093CB99 /* Images */,
 				23B36EFA21890E6B0093CB99 /* Sounds */,
@@ -139,6 +148,9 @@
 				23B36EB421890AF40093CB99 /* LaunchScreen.storyboard */,
 				23B36EB721890AF40093CB99 /* Info.plist */,
 				23B36F14218AB77D0093CB99 /* Array2D.swift */,
+				23B36F18218BD9B10093CB99 /* Shape.swift */,
+				23B36F1A218BE8C10093CB99 /* SquareShape.swift */,
+				23B36F1C218BEC150093CB99 /* TShape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -330,8 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B36F1B218BE8C10093CB99 /* SquareShape.swift in Sources */,
 				23B36EAC21890AF10093CB99 /* GameScene.swift in Sources */,
+				23B36F19218BD9B10093CB99 /* Shape.swift in Sources */,
 				23B36F15218AB77D0093CB99 /* Array2D.swift in Sources */,
+				23B36F1D218BEC150093CB99 /* TShape.swift in Sources */,
+				23B36F17218B8C0A0093CB99 /* Block.swift in Sources */,
 				23B36EAE21890AF10093CB99 /* GameViewController.swift in Sources */,
 				23B36EA621890AF10093CB99 /* AppDelegate.swift in Sources */,
 			);
