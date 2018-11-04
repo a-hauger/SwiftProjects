@@ -38,6 +38,7 @@
 		23B36F23218CCF750093CB99 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F22218CCF750093CB99 /* JShape.swift */; };
 		23B36F25218CD2100093CB99 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F24218CD2100093CB99 /* SShape.swift */; };
 		23B36F27218CD65B0093CB99 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F26218CD65B0093CB99 /* ZShape.swift */; };
+		23B36F29218E47180093CB99 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B36F28218E47180093CB99 /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		23B36F22218CCF750093CB99 /* JShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		23B36F24218CD2100093CB99 /* SShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		23B36F26218CD65B0093CB99 /* ZShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		23B36F28218E47180093CB99 /* Swiftris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				23B36F22218CCF750093CB99 /* JShape.swift */,
 				23B36F24218CD2100093CB99 /* SShape.swift */,
 				23B36F26218CD65B0093CB99 /* ZShape.swift */,
+				23B36F28218E47180093CB99 /* Swiftris.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				23B36F1B218BE8C10093CB99 /* SquareShape.swift in Sources */,
 				23B36EAC21890AF10093CB99 /* GameScene.swift in Sources */,
 				23B36F23218CCF750093CB99 /* JShape.swift in Sources */,
+				23B36F29218E47180093CB99 /* Swiftris.swift in Sources */,
 				23B36F19218BD9B10093CB99 /* Shape.swift in Sources */,
 				23B36F15218AB77D0093CB99 /* Array2D.swift in Sources */,
 				23B36F1F218CC9220093CB99 /* LineShape.swift in Sources */,
