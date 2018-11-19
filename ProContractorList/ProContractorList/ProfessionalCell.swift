@@ -6,6 +6,24 @@
 //  Copyright © 2018 HomeAdvisorScreening. All rights reserved.
 //
 
+/**************** DOCUMENTATION ****************
+ Purpose:
+ To load and stylize our UITableCells
+ 
+ Description:
+ 1. Create outlets from the IB to here for the company name label and the rating label
+ 2. Create a way for the cell's labels to be set externally through our setCellLabel function
+ ->2b. formats the labels' text, font and color (based on provided logic)
+ 
+ Details:
+ ALL CONSTRAINTS ARE FOUND IN THE IB
+ 
+ Last Modified:
+ 17 November 2018 - Documentation, project part 1 completed
+ 16 November 2018 - fixed constraints in IB
+ 15 November 2018 - Initial Creation. Created a way to set labels and stylize labels
+ **************** DOCUMENTATION ****************/
+
 import UIKit
 
 class ProfessionalCell: UITableViewCell {
@@ -30,7 +48,7 @@ class ProfessionalCell: UITableViewCell {
             compositeRatingLabel.text = "References Available"
             compositeRatingLabel.textColor = UIColor.black
         } else {
-            compositeRatingLabel.text="Rating: \(rating) | \(numRatings) rating(s)"
+            compositeRatingLabel.text="Ratings: \(rating) | \(numRatings) rating(s)"
             
             if floatRating! >= 4.0 {
                 compositeRatingLabel.textColor=UIColor.green
